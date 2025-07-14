@@ -9,7 +9,7 @@ def main():
     results = run_pipeline(user_input)
     
     for i, r in enumerate(results, 1):
-        print(f"\n{i}. {r['title']} ({r['year']})\n{r['author']}\n{r['url']}\n")
+        print(f"\n{i}. {r['title']} ({r['year']})\n{r['authors']}\n{r['link']}\n")
 
 if __name__ == "__main__":
     main()
